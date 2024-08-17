@@ -1,0 +1,108 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 5px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#hero {
+    background: #0779e4;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    margin: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+#hero p {
+    font-size: 20px;
+}
+
+#hero .btn {
+    display: inline-block;
+    color: #fff;
+    background: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#about, #services, #contact {
+    background: #fff;
+    color: #333;
+}
+
+#services .service-box {
+    width: 30%;
+    display: inline-block;
+    margin: 1.5%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
